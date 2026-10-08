@@ -29,7 +29,7 @@
 <g class="in" style="animation-delay:0.40s">
   <path d="M11.93 8.5a4.002 4.002 0 0 1-7.86 0H.75a.75.75 0 0 1 0-1.5h3.32a4.002 4.002 0 0 1 7.860 0h3.32a.75.75 0 0 1 0 1.5Zm-1.43-.75a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z" transform="translate(28 173)" fill="#8b949e"/>
   <text x="56" y="186" class="sans" font-size="15" fill="#e6edf3">Commits in 2026</text>
-  <text x="462" y="186" text-anchor="end" class="mono" font-size="15" font-weight="700" fill="#e6edf3">34</text>
+  <text x="462" y="186" text-anchor="end" class="mono" font-size="15" font-weight="700" fill="#e6edf3">40</text>
   <line x1="56" y1="198" x2="462" y2="198" stroke="#30363d" stroke-dasharray="2 4" opacity="1"/>
 </g>
 <g class="in" style="animation-delay:0.50s">
@@ -41,7 +41,7 @@
 <g class="in" style="animation-delay:0.60s">
   <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.060 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z" transform="translate(28 241)" fill="#8b949e"/>
   <text x="56" y="254" class="sans" font-size="15" fill="#e6edf3">Contributions (12 months)</text>
-  <text x="462" y="254" text-anchor="end" class="mono" font-size="15" font-weight="700" fill="#e6edf3">37</text>
+  <text x="462" y="254" text-anchor="end" class="mono" font-size="15" font-weight="700" fill="#e6edf3">43</text>
   <line x1="56" y1="266" x2="462" y2="266" stroke="#30363d" stroke-dasharray="2 4" opacity="0"/>
 </g>
 </svg>
