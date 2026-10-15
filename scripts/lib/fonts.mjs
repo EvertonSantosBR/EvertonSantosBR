@@ -62,6 +62,48 @@ export async function fontCss(used) {
   return css;
 }
 
+/**
+ * Quebra texto com trechos em **negrito** em linhas de "runs" [{t, face}], medindo cada palavra
+ * na face certa. `bold` é a face usada dentro dos **...**.
+ */
+export function richLines(text, face, bold, size, maxWidth) {
+  const words = [];
+  String(text).split(/(\*\*[^*]+\*\*)/).forEach((part) => {
+    const isBold = part.startsWith("**");
+    const clean = isBold ? part.slice(2, -2) : part;
+    clean.split(/(\s+)/).forEach((w) => {
+      if (w === "") return;
+      if (/^\s+$/.test(w)) words.push({ space: true });
+      else words.push({ t: w, face: isBold ? bold : face });
+    });
+  });
+  const lines = [];
+  let line = [], width = 0, pendingSpace = false;
+  const spaceW = measure(face, " ", size);
+  for (const w of words) {
+    if (w.space) { pendingSpace = line.length > 0; continue; }
+    const ww = measure(w.face, w.t, size);
+    const add = (pendingSpace ? spaceW : 0) + ww;
+    if (line.length && width + add > maxWidth) {
+      lines.push(line);
+      line = [{ t: w.t, face: w.face }];
+      width = ww;
+    } else {
+      if (pendingSpace) line.push({ t: " ", face });
+      line.push({ t: w.t, face: w.face });
+      width += add;
+    }
+    pendingSpace = false;
+  }
+  if (line.length) lines.push(line);
+  // junta runs vizinhos da mesma face
+  return lines.map((l) => l.reduce((acc, r) => {
+    const last = acc[acc.length - 1];
+    if (last && last.face === r.face) last.t += r.t; else acc.push({ ...r });
+    return acc;
+  }, []));
+}
+
 /** Quebra um texto em linhas que caibam em `maxWidth`. */
 export function wrap(key, text, size, maxWidth, letterSpacing = 0) {
   const lines = [];

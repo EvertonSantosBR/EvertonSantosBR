@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="72" viewBox="0 0 230 72" role="img" aria-labelledby="t">
+<title id="t">03 Missões</title>
+<style>@font-face{font-family:es-pixelBold;src:url(data:font/woff2;base64,d09GMgABAAAAAAKkAA8AAAAABYwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG24cKAZgP1NUQVQqADwRCAqBBIEOCwgAATYCJAMKBCAFg2wHIAwHG4gEyC4HeLJjlMSEtMA1iyFumkgp3KtOkG/eLZ6H7n07d96ktUaJYIADGApws3gHLG3Fl7MUof0+sZ97U+27ofKlIapp8t3S4qA0rlMypXnoJjzh396ub2USeGa1NPLUWhxpl7yYXP0MADu0vob7v1C99t+fqhnLIpKHUYrYnBQbm3Px0VaoggHqwE/aMa1asBJ1b9a1Y8ZIOqaoycwkXUdvLOi2ihLeVraOkD9qtoq8Ci2C7IypIokgqqJTdComRbGpQ1gBECXR0VAOEqzrQ5dThO2GmuMwMeqgXIJrWJIP5QvzEfMT8ofiBoGe/v8LzZ2ljnAH5A2wKCKiUzAqhFnhi+PtEFAEMsofQEGDURHBqKhN0K6K4hBd5PvrU0KASBkADWhHg11wBKACiix19jiUbnrSpyfdzuZId5+kB5i9kKSbKHOMXMxbQp09nJ0QJ+cP58fJ9j//ZTx+3Tp5CVLtrouX49YVdvfnXeeP61MDEISxFYWp185I8wv8VE0C4KdfrPy/q2QkhLQrIDwzrKfC/bcghM9b8lczl5g2LYTGqbhNUQEARdDlXERGF17cCcS0Wyg6PUPjhAzVqjVoM21MaLcsKwq9ONXjXz7FEHB4tj0CH0MmYAUO1agsoxZoZE0nGCaLQKPqQBpDIBC2oAPYDmPzK03asWvHsslAo23oP16k0QXMO355BwqBQupwhMfoOO/YHpNGxGgYj81z2HgaU3MGHFE2nWXCuHEcgVCOujENGsU4xnc5w+YbD2NHy0ERLNValP5HWr3eAA==) format("woff2")}.f-pixelBold{font-family:es-pixelBold,ui-monospace,Consolas,monospace}@font-face{font-family:es-bodyBold;src:url(data:font/woff2;base64,d09GMgABAAAAAAUIABAAAAAACgwAAASsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGiIbgXAccgZgP1NUQVRWAFQRCAqFDIQoCxgAATYCJAMqBCAFhW4HIAwHG3YIyJ4FTpk9GlHXSzzE1yJdkU/UyCce4vfrd2befbv+MfGkllSTef0RyCRohC7WoDSPVK3sz9dp708hBYUYWJNUU/K0kE4GTr3u9j8ALeyUFy/8//eb+YI38WivQ8yUYvKwyD9YFpHmLRGSiDdOh9NX8horbXUhlA1jF5fxpEAPEEJLCIFAvL1jrlLYDpZAAaHXrH2dEKrAv1Fx1dnTCf6wYkVbkp5Bh5vgA/V/zB0GPhqgKKgBFQoNJUQpGvODRn2q1Jpas/akUgPL1efgjOnNQChz4YaeJ4yuZa9y9WvlH6CjVg+l3qpjkoCyXaaw2ftbdJzDLQqmjG/cCdOu9CauEfZ2JhDM3p5jbi7ZzQ9Qk08wDYD97uY4C6VRB7LbqEtJuSaT9i+w9bBABucIzVRb/6E8QouBgOznU2CmECG0VBjLC0thN7t6RxDw8HKfG2HiIe7uQ0iaLpKvkEQrPwAhZIzhAAKiZyJA0iMO/AlvW4CellQc5OTRa2Ygsb1ug7VWiIQAEyHqfX4E6ILxQAsvgV+YC0xltSYkK8QjIxd5h48o6yV2fbongvRB3p1zgYZAU6DROvcJZqHpp6ygeY8PVliQvX7bkzuBc289gqnHQfOO7lwXp1x/LqZpZCkVNURPCmDq0SPVvLtP4yZVU5R450Kqes3p62ziTTS940rlkbqOC3R1imLtnhuBc4/B8PbLFYcf3z7ferF57hk0fTZo3mkYPtU298iJIzi4OiFwz7ak+/Dxw9aXWhcbtGHzKdbyZwf/eu/7e3f5HD/U/hgjZ1FgM6zu0+zpTAbV1thIwWlCa05jgyGrQZhMeHNWY2Ia9u1wAq2ZnDmUyq9UcMQNyZ2z3jSNxzuS10nioam/OASW9cWDjfQRg4ExPFQvCBkNjENMzJHhWlZrVnkiu7wqWeDOzaQziRXKFjVE9Lm/WNQTNZ3Iqsw6nFuQmBB1uMnl5kc3Uz0FJWVseza7xUptpC3qp+Z8jCTn/oyLejqhxnnR9zn55VVcdxa0Hs29QKFeyM27QKVcAPL+mP8TIZFXSDRsfIAU/eehKTjyeiHt/PJswObzRkN7aiCy777OTRQDWAl8z4/i+6kDWZMvIYRta74q+81h9f/8vaqfgM99/jbAj6+WvyIGKhX2EWhIELwVV/W8hPF/FRMQF4rQycewS20qZRNqhFoJm2Ur0wDU75YsFRgrAkLXGphNvHq5LgX6XkAlShufYnaIwo5goDQU61HlqHetpRzVjporb9iClxVMVApR6JmPUsdU1NIyFnrU3uvGCMYhhB4drNqVKtelDw2hnYOah0MfNzUnD5xbHzH0eNjrjyfp5THCiaYnBwjCCpckbD0IixOzu/WHC9SobFvPNKRPD+tIYRWnnp5+U0InkhKFihUrUQfn0odAaNdLr1ihGoXKlCnk4DSgWh5csVI1nErUcDH20L8tFARk6uYJMg+uv2W3HtyNxNJJ3UhsPR2hy7CePfaQlK5EzYZJFNytGzIKlmBoxfZePC36zxATu+shyZahL9irVpHuwXlKw/1sCnsnOhSx0Odp5zkX3DdyL6thRWyzAGE5vGiqButbLfUN+t+8FwAAAA==) format("woff2")}.f-bodyBold{font-family:es-bodyBold,'Segoe UI',system-ui,Arial,sans-serif}
+text{white-space:pre}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.bob{animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.twinkle{animation:twinkle 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.6)}}
+.spin{animation:spin 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.12)}}
+.fade{animation:fade .8s cubic-bezier(.16,1,.3,1) both}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pop{animation:pop .6s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:center}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.grow{animation:grow 1.2s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:left}
+@keyframes grow{from{transform:scaleX(0)}}
+.nudge{animation:nudge 1.4s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(6px)}}
+.breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes breathe{50%{transform:scale(1.035)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<path d="M16 8L220 8L220 12L224 12L224 16L228 16L228 62L224 62L224 66L220 66L220 70L16 70L16 66L12 66L12 62L8 62L8 16L12 16L12 12L16 12Z" fill="#15111a"/><path d="M10 2L214 2L214 6L218 6L218 10L222 10L222 56L218 56L218 60L214 60L214 64L10 64L10 60L6 60L6 56L2 56L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L211 5L211 9L215 9L215 13L219 13L219 53L215 53L215 57L211 57L211 61L13 61L13 57L9 57L9 53L5 53L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
+<path d="M16 13L54 13L54 15L56 15L56 17L58 17L58 49L56 49L56 51L54 51L54 53L16 53L16 51L14 51L14 49L12 49L12 17L14 17L14 15L16 15Z" fill="#15111a"/><path d="M18 15L52 15L52 17L54 17L54 19L56 19L56 47L54 47L54 49L52 49L52 51L18 51L18 49L16 49L16 47L14 47L14 19L16 19L16 17L18 17Z" fill="#ffcc00"/>
+<text x="35" y="40" class="f-pixelBold" font-size="20" fill="#15111a" text-anchor="middle" >03</text>
+<text x="70" y="41" class="f-bodyBold" font-size="22" fill="#15111a" >Missões</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="72" viewBox="0 0 230 72" role="img" aria-labelledby="t">
+<title id="t">06 Contact</title>
+<style>@font-face{font-family:es-pixelBold;src:url(data:font/woff2;base64,d09GMgABAAAAAAKUAA8AAAAABYgAAAI6AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG3AcKAZgP1NUQVQqADwRCAqBAIEICwgAATYCJAMKBCAFg2wHIAwHG4QEyC4GcjI+VaLnhIMsMvXcK6JW/5A3QiUnqN8P3bv3wlhA1NVAIFMjyg4djyfUFbY6UXFVtfkXawv1kDZhat3OfLHQKJHpxMyX/jz03v5uZ5tiZvXSijS1Xpx4dj0EOMys/wvVa//9qZqxLCJ5GKUIzU3fsjCWbaOtUAWr3OJYus5LFGun78uNbjOIGKTvkkTzjAU6LZdlWA7M9zrPdglFnUeFhkCs11RRZ0MgVKldaJfGmbAWMEgAIZMOAy6VYKUgOpBChxvX2JW/teCtfIBHfkh8tvpHPiQo5BfVfWxW7C/mZil3LFlM9xLizd9YzCiEdoFhesxnOG7QqIcUEJm/QaJgmFFgmMlqOq2qkDYrFuwK62kWgBBFHyigFRWr6WykAxWQctbheiw6S1f06IpOl0fp7CudrZPJKxSdT/DTyd/J4+njp36njtnuzpwzRvT2WC47jp76m2PXkUEguPjf+Xehb///9lJmYXrR1GY6plfdXtC8IbeUs/RaJQj+GNW9cHPtocfTZvx1Nc5oaNCjOMhiNZMAACnQYYpRZAc++9MgTPpCavcOit14qJYbQ4tJSaHVUi5R0I1bI9byCQQGhYbWGE8EHoP0snMi0iR0SXhXRwSVhiERgYyktLT0WQhgwdx8SzVLK0sDNaFZd4yf9khkL+ob/xxkpWVlgD0aAe5DaypWNxbhAoGOG0STqDQgjIaQTFOVkkJhINrNWdKFRJBCYJAI6CklYxNlhBGlmtmq/j2a3tfHAAAA) format("woff2")}.f-pixelBold{font-family:es-pixelBold,ui-monospace,Consolas,monospace}@font-face{font-family:es-bodyBold;src:url(data:font/woff2;base64,d09GMgABAAAAAAUkABAAAAAACdgAAATJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgiwcKAZgP1NUQVRWAFQRCAqFDIRFCxAAATYCJAMcBCAFhW4HIAwHG2sIURSSSfbjICdD7SUWJWLRHs8tuSh1dTH5a/gVQTRGm927N8wsuSST9A2LX4mmkYRHIp4ozSMkkvgd1GmzSZ0akSsy4vY2m8I86Cewet6LfF0Xyuv/u7g0zaZjH29FMSK92KXVKhTQUKxq8qVS9cfXqg/0+mD2i+zOQC35nQkMAKQQOoVAPzMEIWxOyykB21MiXA+2KrQmECdlmB4sEAhVj27pvn5ColvqZYJzzjDTBQQe5FShOWrgv4vQ1wWotGmaVfmb9kf/DZttvDV1qIrOUqKg9jF3bIoaRkhI43ph2BL4tupzkkQqLU1fgIpeHjJnzrLimuizMHGOHlwVOF5zG+GlDvJiHgKwK3y3cQKCIhpk/86OWlNWBABs2JdTBDdtgpe7/6Wej+sIyIF5G1PYCKFbwQhELEA422hoQ9DXiyuRFH0KJY6ENInjJYmK7nzJ/TOGkwIBMcAYgGRCfZCHmFgPDNAtVZuISKDwNjm0/nvtdTvQ9relNidYrxGibTDoAoPQjXfEfAAqIKTwt+3M5jsw3e3tvERjW5iE9G6TSOObW6Gk9/Zjq7GHNzegh0qKWS+2/Up7NoitdKyH5k42N/3ChSNI73UjeXVM2b47Q3TQkd/Ham3L12r3z5SPX7hywquMsXD27t2zj6Hn2vRRSsna8cuMfPHoftQz75UzXqWAxpcbJCJCKiEd6sAHhH7E3i1JjQ0AKGVyVg09Gxtl4y+2kQbNc657ukKpWoUgVuWkC0e8vP8bkFjpuUYav+AGh+9iNrktvKIybkdhMa+3qMogzIis80kOp+cFDlB4EXuovssbniVxBXxJoX9w6FPPdIsup1Cf2vhUBRMu2/CSKazEQJ7n72q3ZZfVYCefIZ6XozvaRV2/lsApcvLPEQX6ywuraEi6SQa1O8o0keBwPiQhm0FSOnVkbY9GjuT/N5bHtMbdF4NAmxQpKzmdIo6Oo8qSciSchOQ6XmQu1s/y33PP23vh8RdWmFfWEJf1XeTR6c7ySzlc6g3xUW+a4LDjE2F+BjO4qrZryHXGrNA/S8hO8CoJfQ8Cm/zmuOS2mpqU1paYnJQYm3KRutS21qg0NSvEMz0k3DtHyWUmCxcOLU0sBwVC/8NFNbJ3O+O0v/2/1VZJRcYB++28pZOpjqwdvjAAIBA2Ltz6Sf3g1d+6ieUzvB246xB8et/w1cBmDuRddEoQ/CRJjaSFaOiygMa68oKt+HcWZzLQMwgt9RCfNUCLUQMFuqyZqD85NdBdRdQevInzKSdsjs2cNChWcYoD3k7Xdk6HA8bYndbLKgnGCMKcMMAsTupnAqdbtxEwADfgJYezxl4ojI6IVpAQjXBJUFpS5VSkcEqBIaOicODyiUNF0v8wmYFKG5kkWA2giIhCY6TDoFoZJe9iTAhECoPGUrXAiVm0UKKMDDbR9VF6ZIGEAgQIFE1BDof2+tsG1QIIRRIKFkxISqZJBB6FAEEiyQSKJFc7weYmKpGjSPQ2ocihYAQuwiZaRBYJ5EVkEUmG1ntaYVfsIAs6iERMkJVQgseyiL6AglovmcSRyPiEevRyHWRsHfBcgyj+/LFe1ZowEhNOjuj4i4A7tFTPoscXXl2klT/xJgIcRJa4dscy+U+j8aReAQA=) format("woff2")}.f-bodyBold{font-family:es-bodyBold,'Segoe UI',system-ui,Arial,sans-serif}
+text{white-space:pre}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.bob{animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.twinkle{animation:twinkle 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.6)}}
+.spin{animation:spin 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.12)}}
+.fade{animation:fade .8s cubic-bezier(.16,1,.3,1) both}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pop{animation:pop .6s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:center}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.grow{animation:grow 1.2s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:left}
+@keyframes grow{from{transform:scaleX(0)}}
+.nudge{animation:nudge 1.4s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(6px)}}
+.breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes breathe{50%{transform:scale(1.035)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<path d="M16 8L220 8L220 12L224 12L224 16L228 16L228 62L224 62L224 66L220 66L220 70L16 70L16 66L12 66L12 62L8 62L8 16L12 16L12 12L16 12Z" fill="#15111a"/><path d="M10 2L214 2L214 6L218 6L218 10L222 10L222 56L218 56L218 60L214 60L214 64L10 64L10 60L6 60L6 56L2 56L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L211 5L211 9L215 9L215 13L219 13L219 53L215 53L215 57L211 57L211 61L13 61L13 57L9 57L9 53L5 53L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
+<path d="M16 13L54 13L54 15L56 15L56 17L58 17L58 49L56 49L56 51L54 51L54 53L16 53L16 51L14 51L14 49L12 49L12 17L14 17L14 15L16 15Z" fill="#15111a"/><path d="M18 15L52 15L52 17L54 17L54 19L56 19L56 47L54 47L54 49L52 49L52 51L18 51L18 49L16 49L16 47L14 47L14 19L16 19L16 17L18 17Z" fill="#ffcc00"/>
+<text x="35" y="40" class="f-pixelBold" font-size="20" fill="#15111a" text-anchor="middle" >06</text>
+<text x="70" y="41" class="f-bodyBold" font-size="22" fill="#15111a" >Contact</text>
+</svg>

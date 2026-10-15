@@ -8,15 +8,32 @@ export const esc = (s) =>
 const r = (n) => Math.round(n * 100) / 100;
 
 // Animações respeitam prefers-reduced-motion (o navegador aplica a media query dentro do <img>).
+// Movimento suave (ease) para entradas e flutuação; "steps" só onde o pixel pede (piscar).
+const EASE = "cubic-bezier(.16,1,.3,1)";
 const BASE_CSS = `
 text{white-space:pre}
 .blink{animation:blink 1.2s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
-.bob{animation:bob 1.6s steps(2) infinite}
-@keyframes bob{50%{transform:translateY(-6px)}}
-.twinkle{animation:twinkle 2.4s steps(3) infinite;transform-box:fill-box;transform-origin:center}
-@keyframes twinkle{0%,100%{opacity:1}50%{opacity:.25}}
+.bob{animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.twinkle{animation:twinkle 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.6)}}
+.spin{animation:spin 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.12)}}
+.fade{animation:fade .8s ${EASE} both}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pop{animation:pop .6s ${EASE} both;transform-box:fill-box;transform-origin:center}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.grow{animation:grow 1.2s ${EASE} both;transform-box:fill-box;transform-origin:left}
+@keyframes grow{from{transform:scaleX(0)}}
+.nudge{animation:nudge 1.4s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(6px)}}
+.breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes breathe{50%{transform:scale(1.035)}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}`;
+
+/** Atraso de animação (para entradas em sequência). */
+export const delay = (s) => `style="animation-delay:${s.toFixed(2)}s"`;
 
 export class Doc {
   /**

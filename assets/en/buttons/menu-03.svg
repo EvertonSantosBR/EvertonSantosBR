@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="72" viewBox="0 0 230 72" role="img" aria-labelledby="t">
+<title id="t">03 Missions</title>
+<style>@font-face{font-family:es-pixelBold;src:url(data:font/woff2;base64,d09GMgABAAAAAAKkAA8AAAAABYwAAAJNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG24cKAZgP1NUQVQqADwRCAqBBIEOCwgAATYCJAMKBCAFg2wHIAwHG4gEyC4HeLJjlMSEtMA1iyFumkgp3KtOkG/eLZ6H7n07d96ktUaJYIADGApws3gHLG3Fl7MUof0+sZ97U+27ofKlIapp8t3S4qA0rlMypXnoJjzh396ub2USeGa1NPLUWhxpl7yYXP0MADu0vob7v1C99t+fqhnLIpKHUYrYnBQbm3Px0VaoggHqwE/aMa1asBJ1b9a1Y8ZIOqaoycwkXUdvLOi2ihLeVraOkD9qtoq8Ci2C7IypIokgqqJTdComRbGpQ1gBECXR0VAOEqzrQ5dThO2GmuMwMeqgXIJrWJIP5QvzEfMT8ofiBoGe/v8LzZ2ljnAH5A2wKCKiUzAqhFnhi+PtEFAEMsofQEGDURHBqKhN0K6K4hBd5PvrU0KASBkADWhHg11wBKACiix19jiUbnrSpyfdzuZId5+kB5i9kKSbKHOMXMxbQp09nJ0QJ+cP58fJ9j//ZTx+3Tp5CVLtrouX49YVdvfnXeeP61MDEISxFYWp185I8wv8VE0C4KdfrPy/q2QkhLQrIDwzrKfC/bcghM9b8lczl5g2LYTGqbhNUQEARdDlXERGF17cCcS0Wyg6PUPjhAzVqjVoM21MaLcsKwq9ONXjXz7FEHB4tj0CH0MmYAUO1agsoxZoZE0nGCaLQKPqQBpDIBC2oAPYDmPzK03asWvHsslAo23oP16k0QXMO355BwqBQupwhMfoOO/YHpNGxGgYj81z2HgaU3MGHFE2nWXCuHEcgVCOujENGsU4xnc5w+YbD2NHy0ERLNValP5HWr3eAA==) format("woff2")}.f-pixelBold{font-family:es-pixelBold,ui-monospace,Consolas,monospace}@font-face{font-family:es-bodyBold;src:url(data:font/woff2;base64,d09GMgABAAAAAASkABAAAAAACWwAAARKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbggwccgZgP1NUQVRWAEwRCAqDbIMrCxQAATYCJAMkBCAFhW4HIAwHGwEIyK4GHGOKfoiahDpqyzWU48WJyyPkkzdePMTv1+/M3LdiiFhS0ebtV2hujZK0QWl4o7T9I+/tJYX0JRZQkioVfGx37utrcd3T+kpBPNzPe7+WQbbZdGhTiAiKSNAoXX4lvjfAPy3s/OcsnP5+6q8VBg3r0VJ0ohPKxgqswN2sjTaQqKR5pI5kYvMtw6uOXeT/U6ALSCmkUGkIgbYZZNDNrkA5xF9tGe6DeBX0EcSVjsE+iEQgVFqa0ivaQqIp7RaKm+qFqQOgwgklXX0u9qbwjfln+YWwu1WoFKmWthdYN9U8qGFIerEQQzakvq5ua4CbAoEGIibbB5bdauE0daltqHVSgLaptNwm77LWUg5by0mlfuUuqXasPOIq2dbDuoOVaRJkMDIb+ZUaeU85DmCX+7FxFmShB7JTr1VVygoBABsOB0rhlqChcvV/U92RJxCQvXwBU8QJoalghBDMht7oH5pEgIHLwziCigEMH0YQaZLkPWcXzfyK7TOG0w4ERNcYgKRHXZDlQy0H2ppS2oNAGupDSOrzJr2LzjoWAAjRxwVaYBjQwD34CGOAEQBEn0mSc8cQLdOdILfH1DonYupiQtvnouujG6Mb4sdWnRKdwzHXh0PM1g60XW7vrZvLLcCFe/s9spBVYwfz223l1uKAFKjnDDS1zO+Y6Pl9ftVFewTRE1lI9MPP6xrvmcF55ZeZsXWzxq14L/Ts7eyudVTTZkdud6X7anOrFT0+FtcePhbHmaL1TSZvpN0I63r7DutWvh6FB94XoiIPS17bMLsa3A8/IPaJOJaccuV3EPaKxkz2yfp6x8S4IRASjY5ZGp2TEzpXF1uR7VaocwM4j2Vno5UV1ipI6nG/KuVdlZ1kq9jPeMLsrJRn5k7cn2qhE0Kp3N3GcVtb6CbbXozO/ZxM5f3OSHk/W4X5Ul96BAq1F2dD11HePY1+z+Pf02n3gM4iBHXNCUK6cgDmA3+Uz+L5EISN/973NQmGX7OU/wA/HP5r8PfW/J/U/rscRT8D6hIE19RS3pdAERIgVAhCK++yVWzSIt587TqKmH1flPVAz1zygREQtCyCGgJtL4+P6/lAEVUL32U9BGFzOEAaFEtBcdSH/Koc1By1yapbz5cSjCELQeiaBVLbBNDUNALu4rqnHE4s9iIN6tWih4xCv2E2pB7tqhDaDcNZegcCZh9WROyEtvrNKYYQJnWwGcyBSWsLTKK7DSI1HRR5wEhASEvVNtNp3LBBLSNpKindYE+/lNSHQkpEQkJKD9NpGInUY0gdCREtETk5kXYdRmnwYSRktDpIaXVq6KF6rcoFlNLPEy61Y0ZalhqkSlGAQClFgUw7Ur8Jg3tsp5CtRCPz7eXw1lkZRVdMwV26tl7sViNnWIc0aAgFB5AMNxuiIyaGIUoDI1qJerf2ElPwsL0HcS664ZErbzFBrHUWfq4Qmsj+FpL+nXHSb9pD) format("woff2")}.f-bodyBold{font-family:es-bodyBold,'Segoe UI',system-ui,Arial,sans-serif}
+text{white-space:pre}
+.blink{animation:blink 1.2s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.bob{animation:bob 2.2s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-8px)}}
+.twinkle{animation:twinkle 2.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.2;transform:scale(.6)}}
+.spin{animation:spin 2.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.12)}}
+.fade{animation:fade .8s cubic-bezier(.16,1,.3,1) both}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pop{animation:pop .6s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:center}
+@keyframes pop{from{opacity:0;transform:scale(.7)}to{opacity:1;transform:none}}
+.grow{animation:grow 1.2s cubic-bezier(.16,1,.3,1) both;transform-box:fill-box;transform-origin:left}
+@keyframes grow{from{transform:scaleX(0)}}
+.nudge{animation:nudge 1.4s ease-in-out infinite}
+@keyframes nudge{50%{transform:translateX(6px)}}
+.breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes breathe{50%{transform:scale(1.035)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<path d="M16 8L220 8L220 12L224 12L224 16L228 16L228 62L224 62L224 66L220 66L220 70L16 70L16 66L12 66L12 62L8 62L8 16L12 16L12 12L16 12Z" fill="#15111a"/><path d="M10 2L214 2L214 6L218 6L218 10L222 10L222 56L218 56L218 60L214 60L214 64L10 64L10 60L6 60L6 56L2 56L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L211 5L211 9L215 9L215 13L219 13L219 53L215 53L215 57L211 57L211 61L13 61L13 57L9 57L9 53L5 53L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
+<path d="M16 13L54 13L54 15L56 15L56 17L58 17L58 49L56 49L56 51L54 51L54 53L16 53L16 51L14 51L14 49L12 49L12 17L14 17L14 15L16 15Z" fill="#15111a"/><path d="M18 15L52 15L52 17L54 17L54 19L56 19L56 47L54 47L54 49L52 49L52 51L18 51L18 49L16 49L16 47L14 47L14 19L16 19L16 17L18 17Z" fill="#ffcc00"/>
+<text x="35" y="40" class="f-pixelBold" font-size="20" fill="#15111a" text-anchor="middle" >03</text>
+<text x="70" y="41" class="f-bodyBold" font-size="22" fill="#15111a" >Missions</text>
+</svg>

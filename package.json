@@ -4,7 +4,8 @@
   "type": "module",
   "description": "Gerador do README de perfil (SVGs em pixel art).",
   "scripts": {
-    "render": "node scripts/render.mjs"
+    "render": "node scripts/render.mjs && node scripts/readme.mjs",
+    "readme": "node scripts/readme.mjs"
   },
   "engines": {
     "node": ">=20"
