@@ -129,7 +129,7 @@ export const QUESTS = [
   },
 ];
 
-// Arquivo: projetos menores (cartuchos dentro de <details>)
+// Arquivo: projetos menores (cartuchos no fim das missões)
 export const ARCHIVE = [
   { file: "cadastroapp", repo: "CadastroApp", year: "2025", stack: "C# · .NET", pt: "CRUD de usuários em console com validação de entrada.", en: "Console user CRUD with input validation." },
   { file: "storemanagement", repo: "StoreManagement", year: "2025", stack: "Java", pt: "Gestão de mercado (produtos, funcionários e caixa), feito em equipe na faculdade.", en: "Store management (products, staff and cash register), a university team project." },
@@ -152,11 +152,8 @@ export const CONTACTS = [
   { file: "portfolio", art: "globe", pt: "Portfólio", en: "Portfolio" },
 ];
 
-// Botões de ação (cada um é um link ou o <summary> de um <details> no README)
+// Botões de ação (links no README)
 export const BUTTONS = {
-  menu: { art: "arrowUp", pt: "Menu", en: "Menu" },
-  map: { art: "cursor", pt: "Ver mapa da missão", en: "See mission map" },
-  archive: { art: "cartridge", pt: "Arquivo · 3 cartuchos", en: "Archive · 3 cartridges" },
   milestones: { art: "diploma", pt: "Marcos acadêmicos", en: "Academic milestones" },
   ghAchievements: { art: "starFull", pt: "Conquistas no GitHub", en: "GitHub achievements" },
 };

@@ -28,15 +28,11 @@
 
 <picture><source media="(max-width: 600px)" srcset="./assets/pt/m/skills.svg"/><img src="./assets/pt/skills.svg" width="100%" alt="Habilidades de classe"/></picture>
 
-<p align="right"><a href="#menu"><img src="./assets/pt/buttons/menu.svg" height="40" alt="Voltar ao menu"/></a></p>
-
 <a name="inventario"></a>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/pt/m/banners/02.svg"/><img src="./assets/pt/banners/02.svg" width="100%" alt="02 — Inventário. Itens equipados, consumíveis e em treinamento."/></picture>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/pt/m/inventory.svg"/><img src="./assets/pt/inventory.svg" width="100%" alt="Inventário"/></picture>
-
-<p align="right"><a href="#menu"><img src="./assets/pt/buttons/menu.svg" height="40" alt="Voltar ao menu"/></a></p>
 
 <a name="missoes"></a>
 
@@ -44,13 +40,7 @@
 
 <a href="https://evertonsantos-pied.vercel.app/projetos/peopleos"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/peopleos.svg"/><img src="./assets/pt/missions/peopleos.svg" width="100%" alt="M01 · PeopleOS — RH & folha de pagamento · ago — set 2026. Motor de cálculo de folha que trata 13º em parcelas, salário proporcional e pensão alimentícia — e gera o holerite em PDF. Acesso por perfil e por unidade, trilha de auditoria e migrations. Em desenvolvimento · repositório privado. Ver estudo de caso."/></picture></a>
 
-<details>
-<summary><img src="./assets/pt/buttons/map.svg" height="44" alt="Ver mapa da missão"/></summary>
-<br/>
-
 <picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/flow.svg"/><img src="./assets/pt/missions/flow.svg" width="100%" alt="Mapa da missão · como uma requisição percorre o PeopleOS"/></picture>
-
-</details>
 
 <a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/libras-bridge.svg"/><img src="./assets/pt/missions/libras-bridge.svg" width="100%" alt="M02 · LIBRAS Bridge — Jun 2026 · visão computacional · acessibilidade. Sinais em LIBRAS viram texto e voz (MediaPipe + classificador de ML) e o texto do médico vira LIBRAS pelo VLibras. Autoria · Yasmin Santana."/></picture></a>
 
@@ -60,19 +50,11 @@
 
 <a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/appweb-iel.svg"/><img src="./assets/pt/missions/appweb-iel.svg" width="100%" alt="M05 · Gestão de Alunos — IEL — Out 2025 · full stack · .NET. CRUD de alunos com busca por CPF: API em ASP.NET + EF Core sobre SQL Server, consumida por uma interface em React."/></picture></a>
 
-<details>
-<summary><img src="./assets/pt/buttons/archive.svg" height="44" alt="Arquivo · 3 cartuchos"/></summary>
-<br/>
-
 <a href="https://github.com/EvertonSantosBR/CadastroApp"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/archive/cadastroapp.svg"/><img src="./assets/pt/archive/cadastroapp.svg" width="100%" alt="CadastroApp — CRUD de usuários em console com validação de entrada."/></picture></a>
 
 <a href="https://github.com/EvertonSantosBR/StoreManagement"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/archive/storemanagement.svg"/><img src="./assets/pt/archive/storemanagement.svg" width="100%" alt="StoreManagement — Gestão de mercado (produtos, funcionários e caixa), feito em equipe na faculdade."/></picture></a>
 
 <a href="https://github.com/EvertonSantosBR/Usurport"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/archive/usurport.svg"/><img src="./assets/pt/archive/usurport.svg" width="100%" alt="Usurport — Processamento de dados das rodovias federais da Bahia — em desenvolvimento."/></picture></a>
-
-</details>
-
-<p align="right"><a href="#menu"><img src="./assets/pt/buttons/menu.svg" height="40" alt="Voltar ao menu"/></a></p>
 
 <a name="status"></a>
 
@@ -86,8 +68,6 @@
   <img src="./assets/generated/snake-dark.svg" width="100%" alt="Gráfico de contribuições do último ano sendo percorrido por uma cobrinha"/>
 </picture>
 
-<p align="right"><a href="#menu"><img src="./assets/pt/buttons/menu.svg" height="40" alt="Voltar ao menu"/></a></p>
-
 <a name="conquistas"></a>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/pt/m/banners/05.svg"/><img src="./assets/pt/banners/05.svg" width="100%" alt="05 — Conquistas. Marcos profissionais, acadêmicos e de comunidade."/></picture>
@@ -98,8 +78,6 @@
 <a href="https://evertonsantos-pied.vercel.app/marcos-academicos"><img src="./assets/pt/buttons/milestones.svg" height="44" alt="Marcos acadêmicos"/></a>
 <a href="https://github.com/EvertonSantosBR?tab=achievements"><img src="./assets/pt/buttons/ghAchievements.svg" height="44" alt="Conquistas no GitHub"/></a>
 </p>
-
-<p align="right"><a href="#menu"><img src="./assets/pt/buttons/menu.svg" height="40" alt="Voltar ao menu"/></a></p>
 
 <a name="contato"></a>
 

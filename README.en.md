@@ -28,15 +28,11 @@
 
 <picture><source media="(max-width: 600px)" srcset="./assets/en/m/skills.svg"/><img src="./assets/en/skills.svg" width="100%" alt="Class skills"/></picture>
 
-<p align="right"><a href="#menu"><img src="./assets/en/buttons/menu.svg" height="40" alt="Back to menu"/></a></p>
-
 <a name="inventory"></a>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/en/m/banners/02.svg"/><img src="./assets/en/banners/02.svg" width="100%" alt="02 — Inventory. Gear equipped, consumables and in training."/></picture>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/en/m/inventory.svg"/><img src="./assets/en/inventory.svg" width="100%" alt="Inventory"/></picture>
-
-<p align="right"><a href="#menu"><img src="./assets/en/buttons/menu.svg" height="40" alt="Back to menu"/></a></p>
 
 <a name="missions"></a>
 
@@ -44,13 +40,7 @@
 
 <a href="https://evertonsantos-pied.vercel.app/en/projects/peopleos"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/peopleos.svg"/><img src="./assets/en/missions/peopleos.svg" width="100%" alt="M01 · PeopleOS — HR & payroll · Aug — Sep 2026. A payroll engine that handles 13th-salary installments, prorated pay and child support — and generates the payslip as a PDF. Role- and unit-based access, audit trail and migrations. In development · private repository. Read the case study."/></picture></a>
 
-<details>
-<summary><img src="./assets/en/buttons/map.svg" height="44" alt="See mission map"/></summary>
-<br/>
-
 <picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/flow.svg"/><img src="./assets/en/missions/flow.svg" width="100%" alt="Mission map · how a request flows through PeopleOS"/></picture>
-
-</details>
 
 <a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/libras-bridge.svg"/><img src="./assets/en/missions/libras-bridge.svg" width="100%" alt="M02 · LIBRAS Bridge — Jun 2026 · computer vision · accessibility. LIBRAS signs become text and speech (MediaPipe + ML classifier), and the doctor's text becomes LIBRAS through VLibras. Author · Yasmin Santana."/></picture></a>
 
@@ -60,19 +50,11 @@
 
 <a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/appweb-iel.svg"/><img src="./assets/en/missions/appweb-iel.svg" width="100%" alt="M05 · Student Management — IEL — Oct 2025 · full stack · .NET. Student CRUD with search by CPF: an ASP.NET + EF Core API on SQL Server, consumed by a React interface."/></picture></a>
 
-<details>
-<summary><img src="./assets/en/buttons/archive.svg" height="44" alt="Archive · 3 cartridges"/></summary>
-<br/>
-
 <a href="https://github.com/EvertonSantosBR/CadastroApp"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/archive/cadastroapp.svg"/><img src="./assets/en/archive/cadastroapp.svg" width="100%" alt="CadastroApp — Console user CRUD with input validation."/></picture></a>
 
 <a href="https://github.com/EvertonSantosBR/StoreManagement"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/archive/storemanagement.svg"/><img src="./assets/en/archive/storemanagement.svg" width="100%" alt="StoreManagement — Store management (products, staff and cash register), a university team project."/></picture></a>
 
 <a href="https://github.com/EvertonSantosBR/Usurport"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/archive/usurport.svg"/><img src="./assets/en/archive/usurport.svg" width="100%" alt="Usurport — Data processing for federal highways in Bahia — in development."/></picture></a>
-
-</details>
-
-<p align="right"><a href="#menu"><img src="./assets/en/buttons/menu.svg" height="40" alt="Back to menu"/></a></p>
 
 <a name="status"></a>
 
@@ -86,8 +68,6 @@
   <img src="./assets/generated/snake-dark.svg" width="100%" alt="Contribution graph for the last year being eaten by a snake"/>
 </picture>
 
-<p align="right"><a href="#menu"><img src="./assets/en/buttons/menu.svg" height="40" alt="Back to menu"/></a></p>
-
 <a name="achievements"></a>
 
 <picture><source media="(max-width: 600px)" srcset="./assets/en/m/banners/05.svg"/><img src="./assets/en/banners/05.svg" width="100%" alt="05 — Achievements. Career, academic and community milestones."/></picture>
@@ -98,8 +78,6 @@
 <a href="https://evertonsantos-pied.vercel.app/en/academic-milestones"><img src="./assets/en/buttons/milestones.svg" height="44" alt="Academic milestones"/></a>
 <a href="https://github.com/EvertonSantosBR?tab=achievements"><img src="./assets/en/buttons/ghAchievements.svg" height="44" alt="GitHub achievements"/></a>
 </p>
-
-<p align="right"><a href="#menu"><img src="./assets/en/buttons/menu.svg" height="40" alt="Back to menu"/></a></p>
 
 <a name="contact"></a>
 

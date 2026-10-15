@@ -13,7 +13,6 @@ const attr = (s) => plain(s).replace(/"/g, "&quot;");
 const pic = (lang, path, alt) =>
   `<picture><source media="(max-width: 600px)" srcset="./assets/${lang}/m/${path}"/><img src="./assets/${lang}/${path}" width="100%" alt="${attr(alt)}"/></picture>`;
 const btn = (lang, name, alt, h = 44) => `<img src="./assets/${lang}/buttons/${name}.svg" height="${h}" alt="${attr(alt)}"/>`;
-const back = (lang) => `<p align="right"><a href="#menu">${btn(lang, "menu", lang === "pt" ? "Voltar ao menu" : "Back to menu", 40)}</a></p>`;
 
 function build(lang) {
   const t = T[lang], other = lang === "pt" ? "en" : "pt";
@@ -23,7 +22,7 @@ function build(lang) {
   const milestones = lang === "pt" ? `${LINKS.portfolio}marcos-academicos` : `${LINKS.portfolio}en/academic-milestones`;
   const contactHref = { agenda: LINKS.agenda, linkedin: LINKS.linkedin, email: LINKS.email, portfolio };
   const s = [];
-  const sec = (i, body) => s.push(`<a name="${id(i)}"></a>\n\n${pic(lang, `banners/${n2(i)}.svg`, `${n2(i)} — ${SECTIONS[i][lang][0]}. ${SECTIONS[i][lang][1]}`)}\n\n${body}\n\n${back(lang)}\n`);
+  const sec = (i, body) => s.push(`<a name="${id(i)}"></a>\n\n${pic(lang, `banners/${n2(i)}.svg`, `${n2(i)} — ${SECTIONS[i][lang][0]}. ${SECTIONS[i][lang][1]}`)}\n\n${body}\n`);
 
   s.push(`<a name="topo"></a>
 
@@ -52,12 +51,12 @@ ${SECTIONS.map((x, i) => `<a href="#${id(i)}">${btn(lang, `menu-${n2(i)}`, `${n2
   const f = FEATURED[lang];
   sec(2, [
     `<a href="${caseStudy}">${pic(lang, "missions/peopleos.svg", `${FEATURED.n} · ${FEATURED.title} — ${f.kind}. ${plain(f.desc)} ${f.status}. ${f.open}.`)}</a>`,
-    `<details>\n<summary>${btn(lang, "map", BUTTONS.map[lang])}</summary>\n<br/>\n\n${pic(lang, "missions/flow.svg", t.flow.title)}\n\n</details>`,
+    pic(lang, "missions/flow.svg", t.flow.title),
     ...QUESTS.map((q) => {
       const title = typeof q.title === "object" ? q.title[lang] : q.title;
       return `<a href="https://github.com/${"EvertonSantosBR"}/${q.repo}">${pic(lang, `missions/${q.file}.svg`, `${q.n} · ${title} — ${q[lang].kind}. ${plain(q[lang].desc)}${q[lang].credit ? ` ${q[lang].credit}.` : ""}`)}</a>`;
     }),
-    `<details>\n<summary>${btn(lang, "archive", BUTTONS.archive[lang])}</summary>\n<br/>\n\n${ARCHIVE.map((a) => `<a href="https://github.com/EvertonSantosBR/${a.repo}">${pic(lang, `archive/${a.file}.svg`, `${a.repo} — ${a[lang]}`)}</a>`).join("\n\n")}\n\n</details>`,
+    ...ARCHIVE.map((a) => `<a href="https://github.com/EvertonSantosBR/${a.repo}">${pic(lang, `archive/${a.file}.svg`, `${a.repo} — ${a[lang]}`)}</a>`),
   ].join("\n\n"));
 
   sec(3, [
