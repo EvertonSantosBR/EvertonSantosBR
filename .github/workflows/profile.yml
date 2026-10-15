@@ -6,34 +6,41 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/**", ".github/workflows/profile.yml"]
+    paths: ["scripts/**", "assets/pixel/**", "package.json", "package-lock.json", ".github/workflows/profile.yml"]
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-readme
+  cancel-in-progress: false
+
 jobs:
   update:
-    name: Cards, estatísticas e gráfico de contribuições
+    name: Painéis em pixel art, estatísticas e gráfico de contribuições
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
+          cache: npm
+      - run: npm ci
       - name: Gerar SVGs
-        run: node scripts/render.mjs
+        run: npm run render
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Gerar gráfico de contribuições (snake)
+      - name: Gerar gráfico de contribuições (snake) nas cores do portfólio
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/generated/snake-dark.svg?palette=github-dark&color_snake=#58a6ff&color_dots=#161b22,#0c2d6b,#1158c7,#388bfd,#79c0ff
+            assets/generated/snake-dark.svg?palette=github-dark&color_snake=#ffcc00&color_dots=#1c1621,#4d3d0a,#806512,#b38f1a,#ffcc00
+            assets/generated/snake-light.svg?palette=github-light&color_snake=#15111a&color_dots=#e9e2d4,#f7e08a,#f0c94a,#d9a400,#8c6a00
       - name: Commit se algo mudou
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
-          git diff --staged --quiet || git commit -m "chore: atualiza cards do perfil"
+          git diff --staged --quiet || git commit -m "chore: atualiza painéis do perfil"
           git push

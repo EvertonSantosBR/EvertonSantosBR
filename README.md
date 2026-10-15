@@ -1,124 +1,144 @@
 <div align="center">
 
-<a href="./README.md"><img src="./assets/lang/pt-on.svg" height="34" alt="Português (atual)"/></a><a href="./README.en.md"><img src="./assets/lang/en-off.svg" height="34" alt="Read in English"/></a>
+<a href="./README.md"><img src="./assets/ui/lang-pt-on.svg" height="40" alt="Português (atual)"/></a>
+<a href="./README.en.md"><img src="./assets/ui/lang-en-off.svg" height="40" alt="Read in English"/></a>
 
-<img src="./assets/hero.svg" width="100%" alt="Everton Santos — Backend Developer"/>
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/hero.svg"/><img src="./assets/pt/hero.svg" width="100%" alt="Everton Santos — desenvolvedor back-end. Tela de título em pixel art com o personagem de moletom, notebook e teclado flutuando."/></picture>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=44&lines=APIs+REST+com+Node.js%2C+Express+e+ASP.NET;Regras+de+neg%C3%B3cio+de+verdade%3A+RH%2C+folha+e+auditoria;Modelagem+relacional+com+MySQL+e+SQL+Server;Explorando+vis%C3%A3o+computacional+e+Web3" alt="APIs REST com Node.js, Express e ASP.NET · regras de negócio · MySQL e SQL Server"/>
+**Desenvolvedor back-end.** Escrevo as regras que ninguém vê — cálculo de folha, permissões, auditoria — e os testes que provam que elas funcionam.
 
-<p><sub>
-<a href="#01-sobre-mim">sobre</a> &nbsp;·&nbsp;
-<a href="#02-tech-stack">stack</a> &nbsp;·&nbsp;
-<a href="#03-projetos-em-destaque">projetos</a> &nbsp;·&nbsp;
-<a href="#04-como-eu-construo">como eu construo</a> &nbsp;·&nbsp;
-<a href="#05-github-em-números">github</a> &nbsp;·&nbsp;
-<a href="#06-contato">contato</a>
-</sub></p>
+<sub>
+<a href="#personagem"><b>01</b> Personagem</a> &nbsp;·&nbsp;
+<a href="#inventario"><b>02</b> Inventário</a> &nbsp;·&nbsp;
+<a href="#missoes"><b>03</b> Missões</a> &nbsp;·&nbsp;
+<a href="#status"><b>04</b> Status</a> &nbsp;·&nbsp;
+<a href="#conquistas"><b>05</b> Conquistas</a> &nbsp;·&nbsp;
+<a href="#contato"><b>06</b> Contato</a>
+</sub>
 
 </div>
 
-<br/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `01` Sobre mim
+<a name="personagem"></a>
 
-<img src="./assets/terminal.svg" width="100%" alt="Terminal: Everton Santos, Backend Developer em Salvador/BA. Formado em Desenvolvimento Web, cursando Sistemas de Informação na UNIFACS. Programa desde 2021."/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 01 — Personagem
 
-Sou desenvolvedor **back-end** em Salvador/BA. Comecei em 2021 pelo front-end, passei pelo React e hoje trabalho principalmente com **Node.js/Express** e **C#/.NET** sobre bancos relacionais. Gosto de sistemas com regra de negócio de verdade, como cálculo de folha de pagamento, controle de acesso e auditoria, e de deixar tudo coberto por testes.
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/character.svg"/><img src="./assets/pt/character.svg" width="100%" alt="Ficha do personagem: modo desenvolvedor, modo back-end e modo estudo. Atual: Dev na QCA. Base: Salvador, BA. Início: 2021. Guilda: UNIFACS."/></picture>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>⚙️ APIs & back-end</h4>
-      <sub>APIs REST em camadas com Express e ASP.NET, autenticação JWT, controle de acesso por perfil e validação de entrada.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🗄️ Dados</h4>
-      <sub>Modelagem relacional em MySQL e SQL Server, migrations versionadas, transações e ORMs (EF Core, Sequelize).</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧪 Qualidade</h4>
-      <sub>Testes automatizados com <code>node:test</code>, testes de regressão para cálculos, Conventional Commits e fluxo com PRs.</sub>
-    </td>
-  </tr>
-</table>
+Sou desenvolvedor **back-end** em Salvador/BA e, desde junho de 2026, desenvolvedor na **[QCA — Queiroz Cavalcanti Advocacia](https://www.qca.adv.br/)**. Comecei em 2021 pelo front-end, passei pelo React e hoje trabalho principalmente com **Node.js/Express** e **C#/.NET** sobre bancos relacionais. Gosto de sistemas com regra de negócio de verdade — cálculo de folha, controle de acesso, auditoria — e de deixar tudo coberto por testes.
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+Formado em Desenvolvimento Web e cursando Sistemas de Informação na UNIFACS.
 
-## `02` Tech stack
+**Habilidades de classe**
 
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, C#, Python, Java, Solidity, Node.js, Express, .NET, Sequelize, React, Next.js, Tailwind, Bootstrap, Electron, MySQL, SQL Server, OpenCV, scikit-learn, Git, GitHub, VS Code, Vercel; estudando AWS, Docker e Linux"/>
+- **APIs & back-end** — APIs REST em camadas com Express e ASP.NET, autenticação JWT, controle de acesso por perfil e validação de entrada.
+- **Dados** — modelagem relacional em MySQL e SQL Server, migrations versionadas, transações e ORMs (EF Core, Sequelize).
+- **Qualidade** — testes automatizados com `node:test`, testes de regressão para cálculos, Conventional Commits e fluxo com pull requests.
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `03` Projetos em destaque
+<a name="inventario"></a>
 
-<p align="center">
-  <img src="./assets/projects/peopleos.svg" width="100%" alt="PeopleOS: sistema de RH e folha de pagamento em Node.js, Express 5 e MySQL"/>
-</p>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 02 — Inventário
 
-<p align="center">
-  <a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><img src="./assets/projects/libras-bridge.svg" width="49%" alt="LIBRAS Bridge"/></a>
-  <a href="https://github.com/EvertonSantosBR/GreenChain"><img src="./assets/projects/greenchain.svg" width="49%" alt="GreenChain"/></a>
-</p>
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/inventory.svg"/><img src="./assets/pt/inventory.svg" width="100%" alt="Inventário. Principal: Node.js, Express, C#, .NET, MySQL, SQL Server. Suporte: React, Next.js, TypeScript, Python, Java. Exploração: Solidity, Hardhat, Ethers.js, Electron. Ferramentas: Git, GitHub, VS Code, Vercel. Treinando: AWS, Docker, Linux."/></picture>
 
-<p align="center">
-  <a href="https://github.com/EvertonSantosBR/BiblioControle"><img src="./assets/projects/bibliocontrole.svg" width="49%" alt="BiblioControle"/></a>
-  <a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><img src="./assets/projects/appweb-iel.svg" width="49%" alt="Gestão de Alunos — IEL"/></a>
-</p>
+<sub>Bibliotecas do dia a dia: <code>JWT</code> · <code>bcrypt</code> · <code>PDFKit</code> · <code>EF Core</code> · <code>Sequelize</code> · <code>EJS</code> · <code>Axios</code> · <code>node:test</code></sub>
+
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
+
+<a name="missoes"></a>
+
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 03 — Missões
+
+Projetos contados como missões. Clique em uma missão para abrir o repositório.
+
+<a href="https://evertonsantos-pied.vercel.app/projetos/peopleos"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/peopleos.svg"/><img src="./assets/pt/missions/peopleos.svg" width="100%" alt="M01 · PeopleOS — RH e folha de pagamento. 11 módulos de API REST, 6 middlewares de segurança, mais de 20 suítes de teste. Em desenvolvimento, repositório privado."/></picture></a>
+
+Sistema de RH com um motor de cálculo de folha que trata 13º em parcelas, salário proporcional e pensão alimentícia — e gera o holerite em PDF. Controle de acesso por perfil e por unidade, trilha de auditoria e migrations. O repositório é privado; o estudo de caso está no [portfólio](https://evertonsantos-pied.vercel.app/projetos/peopleos).
 
 <details>
-<summary><b>Outros repositórios</b></summary>
+<summary><b>Ver o mapa da missão</b> — como uma requisição percorre o PeopleOS</summary>
+<br/>
+<img src="./assets/pt/missions/flow.svg" width="100%" alt="Cliente React → Routes → Middlewares → Controllers → Services → Repositories → MySQL; Services também gera auditoria com log de acesso e o holerite em PDF."/>
+</details>
+
 <br/>
 
-| Projeto | O que é | Stack |
-| --- | --- | --- |
-| [CadastroApp](https://github.com/EvertonSantosBR/CadastroApp) | CRUD de usuários em console, com validação de entrada | C# · .NET |
-| [StoreManagement](https://github.com/EvertonSantosBR/StoreManagement) | Gestão de mercado (produtos, funcionários, caixa), trabalho em equipe da faculdade | Java |
-| [Usurport](https://github.com/EvertonSantosBR/Usurport) | Processamento de dados das rodovias federais da Bahia *(em desenvolvimento)* | Python |
+<a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/libras-bridge.svg"/><img src="./assets/pt/missions/libras-bridge.svg" width="100%" alt="M02 · LIBRAS Bridge — visão computacional e acessibilidade. Autoria de Yasmin Santana."/></picture></a>
+
+Comunicação entre médicos e pacientes surdos: sinais em LIBRAS viram texto e voz (MediaPipe + classificador de ML) e o texto do médico vira LIBRAS pelo VLibras. <sub>Projeto de autoria de Yasmin Santana.</sub>
+
+<a href="https://github.com/EvertonSantosBR/GreenChain"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/greenchain.svg"/><img src="./assets/pt/missions/greenchain.svg" width="100%" alt="M03 · GreenChain — Web3 e sustentabilidade."/></picture></a>
+
+Plataforma Recycle-to-Earn: lixeiras inteligentes (simulador IoT) recompensam a reciclagem com tokens $GREEN na rede Celo, com painéis para usuários e empresas.
+
+<a href="https://github.com/EvertonSantosBR/BiblioControle"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/bibliocontrole.svg"/><img src="./assets/pt/missions/bibliocontrole.svg" width="100%" alt="M04 · BiblioControle — gestão de bibliotecas."/></picture></a>
+
+Meu primeiro sistema completo: cadastro de leitores e livros, empréstimos, devoluções e histórico, com Express e MySQL e uma versão desktop em Electron.
+
+<a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><picture><source media="(max-width: 600px)" srcset="./assets/pt/m/missions/appweb-iel.svg"/><img src="./assets/pt/missions/appweb-iel.svg" width="100%" alt="M05 · Gestão de Alunos — IEL — full stack em .NET."/></picture></a>
+
+CRUD de alunos com busca por CPF: API em ASP.NET com Entity Framework Core sobre SQL Server, consumida por uma interface em React.
+
+<details>
+<summary><b>Arquivo</b> — projetos menores e estudos</summary>
+<br/>
+
+- **[CadastroApp](https://github.com/EvertonSantosBR/CadastroApp)** — CRUD de usuários em console com validação de entrada. <sub>C# · .NET</sub>
+- **[StoreManagement](https://github.com/EvertonSantosBR/StoreManagement)** — gestão de mercado (produtos, funcionários e caixa), feito em equipe na faculdade. <sub>Java</sub>
+- **[Usurport](https://github.com/EvertonSantosBR/Usurport)** — processamento de dados das rodovias federais da Bahia *(em desenvolvimento)*. <sub>Python</sub>
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `04` Como eu construo
+<a name="status"></a>
 
-<img src="./assets/skills.svg" width="100%" alt="Competências: arquitetura em camadas, segurança, regras de negócio, dados, testes e além do back-end, com os projetos onde cada uma aparece"/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 04 — Status
 
-<img src="./assets/flow.svg" width="100%" alt="Fluxo de uma requisição no PeopleOS: Cliente React → Routes → Middlewares → Controllers → Services → Repositories → MySQL, com auditoria e holerite em PDF"/>
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/status.svg"/><img src="./assets/pt/status.svg" width="100%" alt="Status do jogador: repositórios públicos, estrelas, seguidores, commits, pull requests e contribuições, e as linguagens mais usadas por repositório."/></picture>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/snake-light.svg"/>
+  <img src="./assets/generated/snake-dark.svg" width="100%" alt="Gráfico de contribuições do último ano sendo percorrido por uma cobrinha"/>
+</picture>
 
-## `05` GitHub em números
+<sub>Números da API do GitHub, atualizados todo dia por um GitHub Action.</sub>
 
-<p align="center">
-  <img src="./assets/generated/stats.svg" width="49%" alt="Estatísticas do GitHub"/>
-  <img src="./assets/generated/languages.svg" width="49%" alt="Linguagens mais usadas"/>
-</p>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=EvertonSantosBR&locale=pt_BR&border_radius=16&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681&card_width=1000" width="100%" alt="Sequência de contribuições"/>
-</p>
+<a name="conquistas"></a>
 
-<img src="./assets/generated/snake-dark.svg" width="100%" alt="Gráfico de contribuições sendo percorrido por uma cobrinha"/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 05 — Conquistas
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/achievements.svg"/><img src="./assets/pt/achievements.svg" width="100%" alt="Conquistas desbloqueadas: Dev na QCA (junho de 2026); Iniciação Científica em Blockchain; Tech Lead do Club AWS SBG UNIFACS; monitoria de Letramento Digital; monitoria de IHC, UX/UI e Design; formação em Desenvolvimento Web."/></picture>
 
-## `06` Contato
+<sub>Detalhes em <a href="https://evertonsantos-pied.vercel.app/marcos-academicos">marcos acadêmicos</a> · <a href="https://github.com/EvertonSantosBR?tab=achievements">conquistas no GitHub</a></sub>
+
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
+
+<a name="contato"></a>
+
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 06 — Contato
+
+<picture><source media="(max-width: 600px)" srcset="./assets/pt/m/continue.svg"/><img src="./assets/pt/continue.svg" width="100%" alt="Continue? Tem um sistema com regra de negócio complicada? Vamos conversar."/></picture>
 
 <div align="center">
 
-Quer conversar sobre back-end, um projeto ou uma oportunidade? Fique à vontade para me chamar.
+<a href="https://cal.com/evertnnsantts/evortonsantts"><img src="./assets/pt/contact/agenda.svg" width="200" alt="Agendar conversa"/></a>
+<a href="https://www.linkedin.com/in/evertonferreira7/"><img src="./assets/pt/contact/linkedin.svg" width="200" alt="LinkedIn"/></a>
+<a href="mailto:evertnsantos.work@gmail.com"><img src="./assets/pt/contact/email.svg" width="200" alt="E-mail"/></a>
+<a href="https://evertonsantos-pied.vercel.app/"><img src="./assets/pt/contact/portfolio.svg" width="200" alt="Portfólio"/></a>
 
-<br/>
+<sub>evertnsantos.work@gmail.com · <a href="https://evertonsantos-pied.vercel.app/">evertonsantos-pied.vercel.app</a></sub>
 
-<a href="https://www.linkedin.com/in/evertonferreira7/"><img src="./assets/contact/linkedin.svg" width="185" alt="LinkedIn"/></a>
-<a href="mailto:evertnnsantts@gmail.com"><img src="./assets/contact/email.svg" width="185" alt="E-mail"/></a>
-<a href="https://everton-brown.vercel.app/"><img src="./assets/contact/portfolio.svg" width="185" alt="Portfólio"/></a>
-<a href="https://cal.com/evertnnsantts/evortonsantts"><img src="./assets/contact/agenda.svg" width="185" alt="Agendar conversa"/></a>
+<br/><br/>
 
+<img src="./assets/pt/footer.svg" width="100%" alt="Obrigado por jogar — Everton Santos, desenvolvedor back-end em Salvador, BA."/>
 
-<img src="./assets/footer.svg" width="100%" alt="Obrigado pela visita"/>
-
-<img src="https://komarev.com/ghpvc/?username=EvertonSantosBR&label=visitas&color=1f6feb&style=flat-square" alt="Visitas ao perfil"/>
+<img src="https://komarev.com/ghpvc/?username=EvertonSantosBR&label=visitas&color=ffcc00&style=flat-square" alt="Visitas ao perfil"/>
 
 </div>

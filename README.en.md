@@ -1,123 +1,144 @@
 <div align="center">
 
-<a href="./README.md"><img src="./assets/lang/pt-off.svg" height="34" alt="Ler em português"/></a><a href="./README.en.md"><img src="./assets/lang/en-on.svg" height="34" alt="English (current)"/></a>
+<a href="./README.md"><img src="./assets/ui/lang-pt-off.svg" height="40" alt="Ler em português"/></a>
+<a href="./README.en.md"><img src="./assets/ui/lang-en-on.svg" height="40" alt="English (current)"/></a>
 
-<img src="./assets/en/hero.svg" width="100%" alt="Everton Santos — Backend Developer"/>
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/hero.svg"/><img src="./assets/en/hero.svg" width="100%" alt="Everton Santos — back-end developer. Pixel art title screen with the character in a hoodie, with a laptop and a keyboard floating."/></picture>
 
-<img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=720&height=44&lines=REST+APIs+with+Node.js%2C+Express+and+ASP.NET;Real+business+rules%3A+HR%2C+payroll+and+auditing;Relational+modeling+with+MySQL+and+SQL+Server;Exploring+computer+vision+and+Web3" alt="REST APIs with Node.js, Express and ASP.NET · business rules · MySQL and SQL Server"/>
+**Back-end developer.** I write the rules nobody sees — payroll math, permissions, audit trails — and the tests that prove they work.
 
-<p><sub>
-<a href="#01-about-me">about</a> &nbsp;·&nbsp;
-<a href="#02-tech-stack">stack</a> &nbsp;·&nbsp;
-<a href="#03-featured-projects">projects</a> &nbsp;·&nbsp;
-<a href="#04-how-i-build">how I build</a> &nbsp;·&nbsp;
-<a href="#05-github-in-numbers">github</a> &nbsp;·&nbsp;
-<a href="#06-contact">contact</a>
-</sub></p>
+<sub>
+<a href="#character"><b>01</b> Character</a> &nbsp;·&nbsp;
+<a href="#inventory"><b>02</b> Inventory</a> &nbsp;·&nbsp;
+<a href="#missions"><b>03</b> Missions</a> &nbsp;·&nbsp;
+<a href="#status"><b>04</b> Status</a> &nbsp;·&nbsp;
+<a href="#achievements"><b>05</b> Achievements</a> &nbsp;·&nbsp;
+<a href="#contact"><b>06</b> Contact</a>
+</sub>
 
 </div>
 
-<br/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `01` About me
+<a name="character"></a>
 
-<img src="./assets/en/terminal.svg" width="100%" alt="Terminal: Everton Santos, Backend Developer in Salvador, Brazil. Web Development graduate, studying Information Systems at UNIFACS. Coding since 2021."/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 01 — Character
 
-I'm a **back-end** developer based in Salvador, Brazil. I started in 2021 with front-end, moved through React, and today I work mainly with **Node.js/Express** and **C#/.NET** on relational databases. I enjoy systems with real business rules, such as payroll calculation, access control and auditing, and I like keeping them covered by tests.
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/character.svg"/><img src="./assets/en/character.svg" width="100%" alt="Character sheet: developer mode, back-end mode and study mode. Current: Dev at QCA. Base: Salvador, Brazil. Started: 2021. Guild: UNIFACS."/></picture>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h4>⚙️ APIs & back-end</h4>
-      <sub>Layered REST APIs with Express and ASP.NET, JWT authentication, role-based access control and input validation.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🗄️ Data</h4>
-      <sub>Relational modeling in MySQL and SQL Server, versioned migrations, transactions and ORMs (EF Core, Sequelize).</sub>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🧪 Quality</h4>
-      <sub>Automated tests with <code>node:test</code>, regression tests for calculations, Conventional Commits and a PR-based workflow.</sub>
-    </td>
-  </tr>
-</table>
+I'm a **back-end** developer based in Salvador, Brazil, and since June 2026 a developer at **[QCA — Queiroz Cavalcanti Advocacia](https://www.qca.adv.br/)**. I started in 2021 with front-end, moved through React, and today I work mainly with **Node.js/Express** and **C#/.NET** on relational databases. I enjoy systems with real business rules — payroll calculation, access control, auditing — and I like keeping them covered by tests.
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+Web Development graduate, currently studying Information Systems at UNIFACS.
 
-## `02` Tech stack
+**Class skills**
 
-<img src="./assets/en/stack.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, C#, Python, Java, Solidity, Node.js, Express, .NET, Sequelize, React, Next.js, Tailwind, Bootstrap, Electron, MySQL, SQL Server, OpenCV, scikit-learn, Git, GitHub, VS Code, Vercel; learning AWS, Docker and Linux"/>
+- **APIs & back-end** — layered REST APIs with Express and ASP.NET, JWT authentication, role-based access control and input validation.
+- **Data** — relational modeling in MySQL and SQL Server, versioned migrations, transactions and ORMs (EF Core, Sequelize).
+- **Quality** — automated tests with `node:test`, regression tests for calculations, Conventional Commits and a pull request workflow.
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `03` Featured projects
+<a name="inventory"></a>
 
-<p align="center">
-  <img src="./assets/en/projects/peopleos.svg" width="100%" alt="PeopleOS: HR and payroll system built with Node.js, Express 5 and MySQL"/>
-</p>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 02 — Inventory
 
-<p align="center">
-  <a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><img src="./assets/en/projects/libras-bridge.svg" width="49%" alt="LIBRAS Bridge"/></a>
-  <a href="https://github.com/EvertonSantosBR/GreenChain"><img src="./assets/en/projects/greenchain.svg" width="49%" alt="GreenChain"/></a>
-</p>
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/inventory.svg"/><img src="./assets/en/inventory.svg" width="100%" alt="Inventory. Main: Node.js, Express, C#, .NET, MySQL, SQL Server. Support: React, Next.js, TypeScript, Python, Java. Exploring: Solidity, Hardhat, Ethers.js, Electron. Tools: Git, GitHub, VS Code, Vercel. Training: AWS, Docker, Linux."/></picture>
 
-<p align="center">
-  <a href="https://github.com/EvertonSantosBR/BiblioControle"><img src="./assets/en/projects/bibliocontrole.svg" width="49%" alt="BiblioControle"/></a>
-  <a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><img src="./assets/en/projects/appweb-iel.svg" width="49%" alt="Student Management — IEL"/></a>
-</p>
+<sub>Everyday libraries: <code>JWT</code> · <code>bcrypt</code> · <code>PDFKit</code> · <code>EF Core</code> · <code>Sequelize</code> · <code>EJS</code> · <code>Axios</code> · <code>node:test</code></sub>
+
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
+
+<a name="missions"></a>
+
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 03 — Missions
+
+Projects told as missions. Click a mission to open its repository.
+
+<a href="https://evertonsantos-pied.vercel.app/en/projects/peopleos"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/peopleos.svg"/><img src="./assets/en/missions/peopleos.svg" width="100%" alt="M01 · PeopleOS — HR and payroll. 11 REST API modules, 6 security middlewares, 20+ test suites. In development, private repository."/></picture></a>
+
+An HR system with a payroll engine that handles 13th-salary installments, prorated pay and child support — and generates the payslip as a PDF. Role- and unit-based access control, audit trail and migrations. The repository is private; the case study is on my [portfolio](https://evertonsantos-pied.vercel.app/en/projects/peopleos).
 
 <details>
-<summary><b>Other repositories</b></summary>
+<summary><b>See the mission map</b> — how a request flows through PeopleOS</summary>
+<br/>
+<img src="./assets/en/missions/flow.svg" width="100%" alt="React client → Routes → Middlewares → Controllers → Services → Repositories → MySQL; Services also writes the audit and access log and generates the PDF payslip."/>
+</details>
+
 <br/>
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| [CadastroApp](https://github.com/EvertonSantosBR/CadastroApp) | Console user CRUD with input validation | C# · .NET |
-| [StoreManagement](https://github.com/EvertonSantosBR/StoreManagement) | Store management (products, staff, cash register), a university team project | Java |
-| [Usurport](https://github.com/EvertonSantosBR/Usurport) | Data processing for federal highways in Bahia *(in progress)* | Python |
+<a href="https://github.com/EvertonSantosBR/LIBRAS-Bridge"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/libras-bridge.svg"/><img src="./assets/en/missions/libras-bridge.svg" width="100%" alt="M02 · LIBRAS Bridge — computer vision and accessibility. Authored by Yasmin Santana."/></picture></a>
+
+Doctor–deaf patient communication: LIBRAS (Brazilian Sign Language) signs become text and speech (MediaPipe + ML classifier), and the doctor's text becomes LIBRAS through VLibras. <sub>Project authored by Yasmin Santana.</sub>
+
+<a href="https://github.com/EvertonSantosBR/GreenChain"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/greenchain.svg"/><img src="./assets/en/missions/greenchain.svg" width="100%" alt="M03 · GreenChain — Web3 and sustainability."/></picture></a>
+
+Recycle-to-Earn platform: smart bins (IoT simulator) reward recycling with $GREEN tokens on Celo, with dashboards for users and companies.
+
+<a href="https://github.com/EvertonSantosBR/BiblioControle"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/bibliocontrole.svg"/><img src="./assets/en/missions/bibliocontrole.svg" width="100%" alt="M04 · BiblioControle — library management."/></picture></a>
+
+My first complete system: readers and books, loans, returns and lending history, built with Express and MySQL, plus a desktop version on Electron.
+
+<a href="https://github.com/EvertonSantosBR/APPWEB---IEL"><picture><source media="(max-width: 600px)" srcset="./assets/en/m/missions/appweb-iel.svg"/><img src="./assets/en/missions/appweb-iel.svg" width="100%" alt="M05 · Student Management — IEL — full stack .NET."/></picture></a>
+
+Student CRUD with search by CPF: an ASP.NET API with Entity Framework Core on SQL Server, consumed by a React interface.
+
+<details>
+<summary><b>Archive</b> — smaller projects and studies</summary>
+<br/>
+
+- **[CadastroApp](https://github.com/EvertonSantosBR/CadastroApp)** — console user CRUD with input validation. <sub>C# · .NET</sub>
+- **[StoreManagement](https://github.com/EvertonSantosBR/StoreManagement)** — store management (products, staff and cash register), a university team project. <sub>Java</sub>
+- **[Usurport](https://github.com/EvertonSantosBR/Usurport)** — data processing for federal highways in Bahia *(in development)*. <sub>Python</sub>
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-## `04` How I build
+<a name="status"></a>
 
-<img src="./assets/en/skills.svg" width="100%" alt="Skills: layered architecture, security, business rules, data, testing and beyond back-end, with the projects where each one appears"/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 04 — Status
 
-<img src="./assets/en/flow.svg" width="100%" alt="How a request flows through PeopleOS: React client → Routes → Middlewares → Controllers → Services → Repositories → MySQL, with audit log and PDF payslip"/>
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/status.svg"/><img src="./assets/en/status.svg" width="100%" alt="Player status: public repositories, stars, followers, commits, pull requests and contributions, plus the most used languages by repository."/></picture>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/generated/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/generated/snake-light.svg"/>
+  <img src="./assets/generated/snake-dark.svg" width="100%" alt="Contribution graph for the last year being eaten by a snake"/>
+</picture>
 
-## `05` GitHub in numbers
+<sub>Numbers from the GitHub API, refreshed daily by a GitHub Action.</sub>
 
-<p align="center">
-  <img src="./assets/en/generated/stats.svg" width="49%" alt="GitHub stats"/>
-  <img src="./assets/en/generated/languages.svg" width="49%" alt="Most used languages"/>
-</p>
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=EvertonSantosBR&locale=en&border_radius=16&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=6E7681&card_width=1000" width="100%" alt="Contribution streak"/>
-</p>
+<a name="achievements"></a>
 
-<img src="./assets/generated/snake-dark.svg" width="100%" alt="Contribution graph being eaten by a snake"/>
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 05 — Achievements
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/achievements.svg"/><img src="./assets/en/achievements.svg" width="100%" alt="Achievements unlocked: Dev at QCA (June 2026); undergraduate research in Blockchain; Tech Lead at Club AWS SBG UNIFACS; teaching assistant in Digital Literacy; teaching assistant in HCI, UX/UI and Design; Web Development degree."/></picture>
 
-## `06` Contact
+<sub>More on my <a href="https://evertonsantos-pied.vercel.app/en/academic-milestones">academic milestones</a> · <a href="https://github.com/EvertonSantosBR?tab=achievements">GitHub achievements</a></sub>
+
+<img src="./assets/ui/divider.svg" width="100%" alt=""/>
+
+<a name="contact"></a>
+
+## <img src="./assets/ui/cursor.svg" height="22" alt=""/> 06 — Contact
+
+<picture><source media="(max-width: 600px)" srcset="./assets/en/m/continue.svg"/><img src="./assets/en/continue.svg" width="100%" alt="Continue? Got a system with tricky business rules? Let's talk."/></picture>
 
 <div align="center">
 
-Want to talk about back-end, a project or an opportunity? Feel free to reach out.
+<a href="https://cal.com/evertnnsantts/evortonsantts"><img src="./assets/en/contact/agenda.svg" width="200" alt="Book a call"/></a>
+<a href="https://www.linkedin.com/in/evertonferreira7/"><img src="./assets/en/contact/linkedin.svg" width="200" alt="LinkedIn"/></a>
+<a href="mailto:evertnsantos.work@gmail.com"><img src="./assets/en/contact/email.svg" width="200" alt="Email"/></a>
+<a href="https://evertonsantos-pied.vercel.app/en/"><img src="./assets/en/contact/portfolio.svg" width="200" alt="Portfolio"/></a>
 
-<br/>
+<sub>evertnsantos.work@gmail.com · <a href="https://evertonsantos-pied.vercel.app/en/">evertonsantos-pied.vercel.app</a></sub>
 
-<a href="https://www.linkedin.com/in/evertonferreira7/"><img src="./assets/en/contact/linkedin.svg" width="185" alt="LinkedIn"/></a>
-<a href="mailto:evertnnsantts@gmail.com"><img src="./assets/en/contact/email.svg" width="185" alt="Email"/></a>
-<a href="https://everton-brown.vercel.app/"><img src="./assets/en/contact/portfolio.svg" width="185" alt="Portfolio"/></a>
-<a href="https://cal.com/evertnnsantts/evortonsantts"><img src="./assets/en/contact/agenda.svg" width="185" alt="Book a call"/></a>
+<br/><br/>
 
-<img src="./assets/en/footer.svg" width="100%" alt="Thanks for visiting"/>
+<img src="./assets/en/footer.svg" width="100%" alt="Thanks for playing — Everton Santos, back-end developer in Salvador, Brazil."/>
 
-<img src="https://komarev.com/ghpvc/?username=EvertonSantosBR&label=views&color=1f6feb&style=flat-square" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=EvertonSantosBR&label=visits&color=ffcc00&style=flat-square" alt="Profile views"/>
 
 </div>

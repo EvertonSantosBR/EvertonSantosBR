@@ -1,0 +1,16 @@
+{
+  "name": "evertonsantosbr-profile",
+  "private": true,
+  "type": "module",
+  "description": "Gerador do README de perfil (SVGs em pixel art).",
+  "scripts": {
+    "render": "node scripts/render.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fontkit": "^2.0.4",
+    "subset-font": "^2.9.0"
+  }
+}
