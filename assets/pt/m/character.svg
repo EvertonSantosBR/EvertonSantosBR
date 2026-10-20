@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}.mode{opacity:0;animation:mode 9s linear infinite}
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}.mode{opacity:0;animation:mode 9s linear infinite}
 .prog{animation:prog 9s linear infinite;transform-box:fill-box;transform-origin:left}
 .k1{animation-delay:-6s}.k2{animation-delay:-3s}
 @keyframes mode{0%{opacity:0}4%{opacity:1}30%{opacity:1}34%,100%{opacity:0}}

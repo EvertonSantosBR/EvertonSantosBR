@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 771L592 771L592 775L588 775L588 779L20 779L20 775L16 775L16 771L12 771L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 763L584 763L584 767L580 767L580 771L12 771L12 767L8 767L8 763L4 763L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 759L580 759L580 763L576 763L576 767L16 767L16 763L12 763L12 759L8 759L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="108" class="f-display" font-size="50" fill="#f1ece3" letter-spacing="-1.5" >Habilidades de classe</text>
 <rect x="48" y="134" width="496" height="2" fill="#f1ece324"/>

@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 1076L592 1076L592 1080L588 1080L588 1084L20 1084L20 1080L16 1080L16 1076L12 1076L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 1068L584 1068L584 1072L580 1072L580 1076L12 1076L12 1072L8 1072L8 1068L4 1068L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 1064L580 1064L580 1068L576 1068L576 1072L16 1072L16 1068L12 1068L12 1064L8 1064L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="106" class="f-display" font-size="50" fill="#f1ece3" letter-spacing="-1.5" >Player status</text>
 <text x="48" y="140" class="f-mono" font-size="15" fill="#a69dae" letter-spacing="1.5" >UPDATED ON 10/19/2026</text>

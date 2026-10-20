@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M16 8L220 8L220 12L224 12L224 16L228 16L228 62L224 62L224 66L220 66L220 70L16 70L16 66L12 66L12 62L8 62L8 16L12 16L12 12L16 12Z" fill="#15111a"/><path d="M10 2L214 2L214 6L218 6L218 10L222 10L222 56L218 56L218 60L214 60L214 64L10 64L10 60L6 60L6 56L2 56L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L211 5L211 9L215 9L215 13L219 13L219 53L215 53L215 57L211 57L211 61L13 61L13 57L9 57L9 53L5 53L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
 <path d="M16 13L54 13L54 15L56 15L56 17L58 17L58 49L56 49L56 51L54 51L54 53L16 53L16 51L14 51L14 49L12 49L12 17L14 17L14 15L16 15Z" fill="#15111a"/><path d="M18 15L52 15L52 17L54 17L54 19L56 19L56 47L54 47L54 49L52 49L52 51L18 51L18 49L16 49L16 47L14 47L14 19L16 19L16 17L18 17Z" fill="#ffcc00"/>
 <text x="35" y="40" class="f-pixelBold" font-size="20" fill="#15111a" text-anchor="middle" >04</text>

@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 1098L592 1098L592 1102L588 1102L588 1106L20 1106L20 1102L16 1102L16 1098L12 1098L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 1090L584 1090L584 1094L580 1094L580 1098L12 1098L12 1094L8 1094L8 1090L4 1090L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 1086L580 1086L580 1090L576 1090L576 1094L16 1094L16 1090L12 1090L12 1086L8 1086L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="106" class="f-display" font-size="50" fill="#f1ece3" letter-spacing="-1.5" >Status do jogador</text>
 <text x="48" y="140" class="f-mono" font-size="15" fill="#a69dae" letter-spacing="1.5" >ATUALIZADO EM 19/10/2026</text>

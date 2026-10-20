@@ -20,7 +20,16 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}.walk{animation:walk 14s linear infinite}@keyframes walk{from{transform:translateX(-120px)}to{transform:translateX(640px)}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}.walk{animation:walk 14s linear infinite}@keyframes walk{from{transform:translateX(-120px)}to{transform:translateX(640px)}}
+@media (prefers-reduced-motion:reduce){.walk{animation:none;transform:translateX(296px)}}</style>
 <defs><clipPath id="inside"><rect x="12" y="12" width="568" height="2000"/></clipPath></defs>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 366L592 366L592 370L588 370L588 374L20 374L20 370L16 370L16 366L12 366L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 358L584 358L584 362L580 362L580 366L12 366L12 362L8 362L8 358L4 358L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 354L580 354L580 358L576 358L576 362L16 362L16 358L12 358L12 354L8 354L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="296" y="104" class="f-pixelBold" font-size="40" fill="#ffcc00" text-anchor="middle" >THANKS FOR PLAYING</text>

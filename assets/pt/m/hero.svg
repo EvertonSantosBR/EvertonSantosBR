@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="10" y="10" width="3" height="3" fill="#15111a24"/></pattern></defs>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 1040L592 1040L592 1044L588 1044L588 1048L20 1048L20 1044L16 1044L16 1040L12 1040L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 1032L584 1032L584 1036L580 1036L580 1040L12 1040L12 1036L8 1036L8 1032L4 1032L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 1028L580 1028L580 1032L576 1032L576 1036L16 1036L16 1032L12 1032L12 1028L8 1028L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 1028L580 1028L580 1032L576 1032L576 1036L16 1036L16 1032L12 1032L12 1028L8 1028L8 16L12 16L12 12L16 12Z" fill="url(#dots)"/>

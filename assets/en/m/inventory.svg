@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 1208L592 1208L592 1212L588 1212L588 1216L20 1216L20 1212L16 1212L16 1208L12 1208L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 1200L584 1200L584 1204L580 1204L580 1208L12 1208L12 1204L8 1204L8 1200L4 1200L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 1196L580 1196L580 1200L576 1200L576 1204L16 1204L16 1200L12 1200L12 1196L8 1196L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <text x="48" y="110" class="f-display" font-size="54" fill="#15111a" letter-spacing="-1.5" >Inventory</text>
 <text x="544" y="106" class="f-mono" font-size="14" fill="#6b6372" letter-spacing="1.5" text-anchor="end" >22 ITEMS EQUIPPED</text>

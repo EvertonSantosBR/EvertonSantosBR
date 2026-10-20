@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L988 12L988 16L992 16L992 20L996 20L996 580L992 580L992 584L988 584L988 588L20 588L20 584L16 584L16 580L12 580L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L980 4L980 8L984 8L984 12L988 12L988 572L984 572L984 576L980 576L980 580L12 580L12 576L8 576L8 572L4 572L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 568L980 568L980 572L976 572L976 576L16 576L16 572L12 572L12 568L8 568L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="106" class="f-display" font-size="52" fill="#f1ece3" letter-spacing="-1.5" >Player status</text>
 <text x="944" y="104" class="f-mono" font-size="14" fill="#a69dae" letter-spacing="1.5" text-anchor="end" >UPDATED ON 10/19/2026</text>

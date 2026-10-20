@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 501L592 501L592 505L588 505L588 509L20 509L20 505L16 505L16 501L12 501L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 493L584 493L584 497L580 497L580 501L12 501L12 497L8 497L8 493L4 493L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 489L580 489L580 493L576 493L576 497L16 497L16 493L12 493L12 489L8 489L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <g class="pop">
 <path d="M44 36L160 36L160 40L164 40L164 44L168 44L168 160L164 160L164 164L160 164L160 168L44 168L44 164L40 164L40 160L36 160L36 44L40 44L40 40L44 40Z" fill="#15111a"/><path d="M46 38L158 38L158 42L162 42L162 46L166 46L166 158L162 158L162 162L158 162L158 166L46 166L46 162L42 162L42 158L38 158L38 46L42 46L42 42L46 42Z" fill="#e9e2d4"/>

@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="10" y="10" width="3" height="3" fill="#15111a24"/></pattern></defs>
 <path d="M20 12L988 12L988 16L992 16L992 20L996 20L996 704L992 704L992 708L988 708L988 712L20 712L20 708L16 708L16 704L12 704L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L980 4L980 8L984 8L984 12L988 12L988 696L984 696L984 700L980 700L980 704L12 704L12 700L8 700L8 696L4 696L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 692L980 692L980 696L976 696L976 700L16 700L16 696L12 696L12 692L8 692L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 692L980 692L980 696L976 696L976 700L16 700L16 696L12 696L12 692L8 692L8 16L12 16L12 12L16 12Z" fill="url(#dots)"/>

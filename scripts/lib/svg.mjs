@@ -7,7 +7,9 @@ export const esc = (s) =>
 
 const r = (n) => Math.round(n * 100) / 100;
 
-// Animações respeitam prefers-reduced-motion (o navegador aplica a media query dentro do <img>).
+// Movimento reduzido (prefers-reduced-motion): no Windows isso fica ativo quando "Efeitos de
+// animação" está desligado. Em vez de desligar tudo, trocamos só os deslocamentos (quicar,
+// empurrar, girar) por versões de opacidade — brilho, piscar, trocas e contagens continuam.
 // Movimento suave (ease) para entradas e flutuação; "steps" só onde o pixel pede (piscar).
 const EASE = "cubic-bezier(.16,1,.3,1)";
 const BASE_CSS = `
@@ -30,7 +32,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}`;
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}`;
 
 /** Atraso de animação (para entradas em sequência). */
 export const delay = (s) => `style="animation-delay:${s.toFixed(2)}s"`;

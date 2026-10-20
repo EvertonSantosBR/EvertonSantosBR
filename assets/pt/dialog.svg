@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L988 12L988 16L992 16L992 20L996 20L996 543L992 543L992 547L988 547L988 551L20 551L20 547L16 547L16 543L12 543L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L980 4L980 8L984 8L984 12L988 12L988 535L984 535L984 539L980 539L980 543L12 543L12 539L8 539L8 535L4 535L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 531L980 531L980 535L976 535L976 539L16 539L16 535L12 535L12 531L8 531L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <path d="M56 44L170.2 44L170.2 48L174.2 48L174.2 52L178.2 52L178.2 78L174.2 78L174.2 82L170.2 82L170.2 86L56 86L56 82L52 82L52 78L48 78L48 52L52 52L52 48L56 48Z" fill="#15111a"/><path d="M59 47L167.2 47L167.2 51L171.2 51L171.2 55L175.2 55L175.2 75L171.2 75L171.2 79L167.2 79L167.2 83L59 83L59 79L55 79L55 75L51 75L51 55L55 55L55 51L59 51Z" fill="#ffcc00"/>
 <text x="64" y="73" class="f-pixelBold" font-size="22" fill="#15111a" letter-spacing="1" >EVERTON</text>

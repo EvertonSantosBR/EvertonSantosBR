@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 910L592 910L592 914L588 914L588 918L20 918L20 914L16 914L16 910L12 910L12 20L16 20L16 16L20 16Z" fill="#15111a"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 902L584 902L584 906L580 906L580 910L12 910L12 906L8 906L8 902L4 902L4 12L8 12L8 8L12 8Z" fill="#15111a"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 898L580 898L580 902L576 902L576 906L16 906L16 902L12 902L12 898L8 898L8 16L12 16L12 12L16 12Z" fill="#f4f0e8"/>
 <path d="M56 44L170.2 44L170.2 48L174.2 48L174.2 52L178.2 52L178.2 78L174.2 78L174.2 82L170.2 82L170.2 86L56 86L56 82L52 82L52 78L48 78L48 52L52 52L52 48L56 48Z" fill="#15111a"/><path d="M59 47L167.2 47L167.2 51L171.2 51L171.2 55L175.2 55L175.2 75L171.2 75L171.2 79L167.2 79L167.2 83L59 83L59 79L55 79L55 75L51 75L51 55L55 55L55 51L59 51Z" fill="#ffcc00"/>
 <text x="64" y="73" class="f-pixelBold" font-size="22" fill="#15111a" letter-spacing="1" >EVERTON</text>

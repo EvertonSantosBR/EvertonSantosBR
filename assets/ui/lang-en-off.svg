@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M14 6L162 6L162 10L166 10L166 14L170 14L170 40L166 40L166 44L162 44L162 48L14 48L14 44L10 44L10 40L6 40L6 14L10 14L10 10L14 10Z" fill="#15111a"/><path d="M10 2L158 2L158 6L162 6L162 10L166 10L166 36L162 36L162 40L158 40L158 44L10 44L10 40L6 40L6 36L2 36L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L155 5L155 9L159 9L159 13L163 13L163 33L159 33L159 37L155 37L155 41L13 41L13 37L9 37L9 33L5 33L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
 <text x="20" y="29" class="f-monoBold" font-size="14" fill="#6b6372" >EN</text>
 <text x="52" y="30" class="f-bodyBold" font-size="17" fill="#3a3340" >English</text>

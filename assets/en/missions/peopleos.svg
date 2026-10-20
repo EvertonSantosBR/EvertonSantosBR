@@ -21,7 +21,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L988 12L988 16L992 16L992 20L996 20L996 684L992 684L992 688L988 688L988 692L20 692L20 688L16 688L16 684L12 684L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L980 4L980 8L984 8L984 12L988 12L988 676L984 676L984 680L980 680L980 684L12 684L12 680L8 680L8 676L4 676L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 672L980 672L980 676L976 676L976 680L16 680L16 676L12 676L12 672L8 672L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <path d="M52 46L103.76 46L103.76 48L105.76 48L105.76 50L107.76 50L107.76 78L105.76 78L105.76 80L103.76 80L103.76 82L52 82L52 80L50 80L50 78L48 78L48 50L50 50L50 48L52 48Z" fill="#15111a"/><path d="M54 48L101.76 48L101.76 50L103.76 50L103.76 52L105.76 52L105.76 76L103.76 76L103.76 78L101.76 78L101.76 80L54 80L54 78L52 78L52 76L50 76L50 52L52 52L52 50L54 50Z" fill="#ffcc00"/>
 <text x="60" y="71" class="f-pixelBold" font-size="20" fill="#15111a" >M01</text>

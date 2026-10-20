@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L988 12L988 16L992 16L992 20L996 20L996 579L992 579L992 583L988 583L988 587L20 587L20 583L16 583L16 579L12 579L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L980 4L980 8L984 8L984 12L988 12L988 571L984 571L984 575L980 575L980 579L12 579L12 575L8 575L8 571L4 571L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L976 8L976 12L980 12L980 16L984 16L984 567L980 567L980 571L976 571L976 575L16 575L16 571L12 571L12 567L8 567L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="108" class="f-display" font-size="52" fill="#f1ece3" letter-spacing="-1.5" >Class skills</text>
 <rect x="48" y="134" width="896" height="2" fill="#f1ece324"/>

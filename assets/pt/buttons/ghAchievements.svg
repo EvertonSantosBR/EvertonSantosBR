@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M16 8L322 8L322 12L326 12L326 16L330 16L330 62L326 62L326 66L322 66L322 70L16 70L16 66L12 66L12 62L8 62L8 16L12 16L12 12L16 12Z" fill="#15111a"/><path d="M10 2L316 2L316 6L320 6L320 10L324 10L324 56L320 56L320 60L316 60L316 64L10 64L10 60L6 60L6 56L2 56L2 10L6 10L6 6L10 6Z" fill="#15111a"/><path d="M13 5L313 5L313 9L317 9L317 13L321 13L321 53L317 53L317 57L313 57L313 61L13 61L13 57L9 57L9 53L5 53L5 13L9 13L9 9L13 9Z" fill="#f4f0e8"/>
 <g shape-rendering="crispEdges" ><rect x="34" y="22.5" width="3" height="3" fill="#c79f00"/><rect x="31" y="25.5" width="9" height="3" fill="#c79f00"/><rect x="22" y="28.5" width="27" height="3" fill="#c79f00"/><rect x="25" y="31.5" width="21" height="3" fill="#c79f00"/><rect x="28" y="34.5" width="15" height="3" fill="#c79f00"/><rect x="25" y="37.5" width="9" height="3" fill="#c79f00"/><rect x="37" y="37.5" width="9" height="3" fill="#c79f00"/><rect x="25" y="40.5" width="6" height="3" fill="#c79f00"/><rect x="40" y="40.5" width="6" height="3" fill="#c79f00"/></g>
 <text x="63" y="41" class="f-bodyBold" font-size="22" fill="#15111a" >Conquistas no GitHub</text>

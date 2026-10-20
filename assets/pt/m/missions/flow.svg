@@ -20,7 +20,15 @@ text{white-space:pre}
 @keyframes nudge{50%{transform:translateX(6px)}}
 .breathe{animation:breathe 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes breathe{50%{transform:scale(1.035)}}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+@media (prefers-reduced-motion:reduce){
+.bob,.nudge,.breathe{animation:none}
+.spin{animation:glint 2.8s ease-in-out infinite}
+@keyframes glint{50%{opacity:.45}}
+.twinkle{animation:glow 2.6s ease-in-out infinite}
+@keyframes glow{50%{opacity:.2}}
+.fade{animation:show .8s ease both}.pop{animation:show .6s ease both}
+@keyframes show{from{opacity:0}}
+}</style>
 <path d="M20 12L588 12L588 16L592 16L592 20L596 20L596 724L592 724L592 728L588 728L588 732L20 732L20 728L16 728L16 724L12 724L12 20L16 20L16 16L20 16Z" fill="#2c0733"/><path d="M12 4L580 4L580 8L584 8L584 12L588 12L588 716L584 716L584 720L580 720L580 724L12 724L12 720L8 720L8 716L4 716L4 12L8 12L8 8L12 8Z" fill="#272030"/><path d="M16 8L576 8L576 12L580 12L580 16L584 16L584 712L580 712L580 716L576 716L576 720L16 720L16 716L12 716L12 712L8 712L8 16L12 16L12 12L16 12Z" fill="#120e16"/>
 <text x="48" y="72" class="f-mono" font-size="15" fill="#ffcc00" letter-spacing="1.5" >MAPA DA MISSÃO · COMO UMA REQUISIÇÃO PERCORRE O</text>
 <text x="48" y="96" class="f-mono" font-size="15" fill="#ffcc00" letter-spacing="1.5" >PEOPLEOS</text>

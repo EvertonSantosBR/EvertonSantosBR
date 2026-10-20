@@ -654,7 +654,8 @@ export function footer(lang, sprites, m) {
   const t = T[lang].footer, W = widthOf(m);
   return sheet(W, { title: `${t.title} — ${t.sub}. ${t.back}.` }, "night", (d, b) => {
     d.def(`<clipPath id="inside"><rect x="12" y="12" width="${W - 32}" height="2000"/></clipPath>`);
-    d.style(`.walk{animation:walk 14s linear infinite}@keyframes walk{from{transform:translateX(-120px)}to{transform:translateX(${W + 40}px)}}`);
+    d.style(`.walk{animation:walk 14s linear infinite}@keyframes walk{from{transform:translateX(-120px)}to{transform:translateX(${W + 40}px)}}
+@media (prefers-reduced-motion:reduce){.walk{animation:none;transform:translateX(${W / 2 - 4}px)}}`);
     const tl = wrap("pixelBold", t.title.toUpperCase(), m ? 40 : 46, b.w);
     tl.forEach((l, i) => d.text("pixelBold", W / 2 - 4, 104 + i * 48, m ? 40 : 46, l, { fill: C.yellow, anchor: "middle" }));
     let y = 104 + (tl.length - 1) * 48;
